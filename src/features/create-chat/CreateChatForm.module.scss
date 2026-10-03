@@ -1,0 +1,12 @@
+.wrapper {
+  flex-shrink: 0;
+
+  padding: 12px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}

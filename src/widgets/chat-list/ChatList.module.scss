@@ -1,0 +1,30 @@
+.list {
+  flex: 1;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+}
+
+.chatButton {
+  width: 100%;
+  flex-shrink: 0;
+
+  padding: 12px 16px;
+
+  border: 0;
+  background: transparent;
+
+  text-align: left;
+  cursor: pointer;
+}
+
+.chatButton:hover {
+  background: #f0f0f0;
+}
+
+.chatButton[aria-pressed='true'] {
+  background: #e5e5e5;
+}
